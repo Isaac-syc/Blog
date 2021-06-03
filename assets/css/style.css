@@ -69,14 +69,14 @@ footer {
 #section-container{
 	position: relative;
 	margin-top: 0;
-	padding-top: 3%;
+	padding-top:3%;
 	width: 70%;
 	display: inline-block;
 	border-right: 3px solid rgba(53, 40, 40, 0.6);
 }
 #barra-lateral{
 	text-align: center;
-	padding-top: 3%;
+	padding-top: 0%;
 	margin-top: 0;
 	position: fixed;
 	width: 20.5%;
@@ -126,5 +126,14 @@ footer {
 .img-redes{
 	height: 45px;
 	width: 45px;
+}
+
+#video{
+	width: 100%;
+	height: 100%;
+}
+#div-video{
+	width: 100%;
+	height: 150%;
 }
 
