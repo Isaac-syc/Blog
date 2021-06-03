@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+    padding: 0;
+	background-image: url(../imagenes/screen-1.jpg);
+    background-size: cover;
+
+}
+main{
+	width: 70%;
+	height: 100%;
+	margin: 0px auto;
+	background: rgba(80, 80, 80, 0.9);
+	box-shadow: 0px 0px 10px 6px whitesmoke;
+
+}
+
+	
+header{
+	height: 8em;
+	background: rgba(220, 220, 220, 0.6);
+}
+#title{
+	margin: auto;
+	text-align: center;
+	line-height: 90px;
+	font-family: 'OptimusPrinceps', sans-serif;
+	font-size: 50px;
+}
+#logo{
+	position: absolute;
+	padding-top: 1%;
+	padding-left: 1%;
+	width: 5em;
+	height: 5em;
+}
+.lista_nav{
+	display: flex;
+    list-style: none;
+    margin: 0;
+	float: right;
+	padding-right: 3%;
+}
+.lista_nav li{
+	margin-left: 15px;
+	font-size: 150%;
+}
+.lista_nav li a{
+	color: black;
+	text-decoration: none;
+}
+footer {
+	background: rgba(19, 16, 16, 0.95);
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	color: white;
+}
+
+#barra{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	display: inline-block;
+
+}
+
+#section-container{
+	position: relative;
+	margin-top: 0;
+	padding-top: 3%;
+	width: 70%;
+	display: inline-block;
+	border-right: 3px solid rgba(53, 40, 40, 0.6);
+}
+#barra-lateral{
+	text-align: center;
+	padding-top: 3%;
+	margin-top: 0;
+	position: fixed;
+	width: 20.5%;
+	display: inline-block;
+
+}
+.articulo{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: rgba(211, 219, 251, 0.986);
+}
+.titulo_art{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+}
+.subtitulo_art{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: rgba(211, 219, 251, 0.986);
+
+}
+
+.img_izquierda{
+	height: 35%;
+	width: 45%;
+	border-radius: 1%;
+	border: 3px solid rgba(53, 40, 40, 0.6);
+}
+
+.img_derecha{
+	height: 35%;
+	width: 45%;
+	margin-left: 5%;
+	border-radius: 1%;
+	border: 3px solid rgba(53, 40, 40, 0.6);
+}
+
+.Text-Bar{
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: rgba(211, 219, 251, 0.986);
+}
+.img-redes{
+	height: 45px;
+	width: 45px;
+}
+
